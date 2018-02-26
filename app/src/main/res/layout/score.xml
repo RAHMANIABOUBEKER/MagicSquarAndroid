@@ -1,0 +1,291 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.booba.starttraining.ScoreGame"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+>
+
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="SCORE OF THE \n  MAGIC SQAR GAME"
+    android:textSize="25dp"
+    android:typeface="serif"
+    android:gravity="center"
+    android:layout_gravity="center"
+    android:layout_marginTop="20dp"
+    android:textStyle="bold"
+    android:shadowDx="5"
+    android:shadowDy="5"
+    android:shadowRadius="15"/>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="EASY LEVEL"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOP SCORE"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/tvHighScoreEasy"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="LAST SCORE"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/tvScoreEasy"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+        </LinearLayout>
+</LinearLayout>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="MEDUIM LEVEL"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOP SCORE"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/tvHighScoreMeduim"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="LAST SCORE"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/tvScoreMeduim"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_marginBottom="15dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:gravity="center"
+            android:text="HARD LEVEL"
+            android:textSize="18dp"
+            android:textStyle="bold"
+            android:typeface="serif" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TOP SCORE"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/tvHighScoreHard"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="20dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="120dp"
+                android:layout_marginRight="10dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="90dp"
+                    android:layout_height="wrap_content"
+                    android:gravity="center"
+                    android:text="LAST SCORE"
+                    android:textSize="15dp"
+                    android:typeface="serif" />
+
+                <TextView
+                    android:id="@+id/tvScoreHard"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:text=""
+                    android:textSize="30dp"
+                    android:textStyle="bold"
+                    android:typeface="serif" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

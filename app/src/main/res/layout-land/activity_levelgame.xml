@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:layout_gravity="center"
+    tools:context="com.example.booba.starttraining.Levelgame">
+<GridLayout
+    android:layout_width="350dp"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/textlevel"
+        android:layout_width="match_parent"
+        android:layout_height="189dp"
+        android:layout_marginTop="50dp"
+        android:ems="2"
+        android:text="You have to chose a level like
+
+1:for Easy(only 3 digits missing)
+2:for Meduim(6 digits missing)
+   3:for Hard(all digits are missing)  "
+        android:textAlignment="center"
+        android:textSize="22sp" />
+
+</GridLayout>
+
+
+<GridLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:rowCount="2">
+    <EditText
+        android:id="@+id/Leveledittext"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="70dp"
+        android:layout_marginTop="60dp"
+        android:ems="2"
+        android:hint="\?"
+        android:inputType="number"
+        android:maxLength="1"
+        android:textAlignment="center"
+        android:textSize="25sp"
+        android:layout_row="0"/>
+    <Button
+        android:id="@+id/play"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="-70dp"
+        android:text="Play"
+        android:layout_marginTop="60dp"
+        android:background="#FF909090"
+        android:layout_row="1"
+        android:onClick="Playgame"
+        />
+</GridLayout>
+
+
+
+
+
+</LinearLayout>
